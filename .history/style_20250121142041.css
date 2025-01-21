@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1000px;
+}
+
+.container {
+  display: flex;
+  width: 600px;
+  height: 750px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-session {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+  color: #666;
+}
+
+
+
+.input-wrapper {
+  position: relative;
+}
+
+ .email {
+  width: 470px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+
+
+.primary-btn {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 470px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  height: 50px;
+}
+
+.primary-btn:hover {
+  background-color: #004494;
+}
+
+.divider {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+ .sign {
+  width: 470px;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-buttons .input-wrapper {
+  background-color: transparent;
+}
+
+.center-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.center-text a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.center-text a:hover {
+  text-decoration: underline;
+}
+
+.pet, p, h1 {
+  font-size: 20px;
+}
+
+.face {
+   height: 30px;
+   width: 50px;
+}
+
+
+.go {
+  height: 50px;
+  width: 50px;
+}
+
+
+.link {
+  height: 50px;
+  width: 50px;
+}
